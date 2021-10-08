@@ -1,0 +1,2 @@
+O site disponibilizado na pasta 'site' é o resultado do projeto no curso HTML5 e CSS3 parte 1 A primeira página da Web.
+Então, para treinar e colocar em prática tudo aprendido, resolvi criar a pasta TCC, nela criei um novo projeto próprio com base nos ensinamentos do curso.
