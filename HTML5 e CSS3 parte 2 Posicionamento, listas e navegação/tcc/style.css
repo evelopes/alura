@@ -1,0 +1,40 @@
+body{
+  
+}
+
+.titulo {
+  color:crimson;
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+#banner{
+  width: 100%;
+}
+
+.sobre {
+  background-color: rgb(250, 210, 222);
+  padding: 30px;
+}
+
+#descricao {
+  text-align: center;
+  color: brown;
+  font-style: italic;
+
+}
+.marca {
+  color:rgb(220, 83, 20);
+ }
+
+.produtos{
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  padding: 10px;
+}
+
+p, li {
+  font-size: 28px;
+  text-align: center;
+}
