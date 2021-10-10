@@ -1,6 +1,12 @@
 body{
  
 } 
+.titulo-principal {
+  padding-left: 20px;
+}
+.titulo-centralizado {
+  text-align: center
+}
 
 #banner{
   width: 100%;
@@ -12,12 +18,7 @@ body{
 
 }
 
-.titulo-principal {
-  padding-left: 20px;
-}
-.titulo-centralizado {
-  text-align: center
-}
+
 p {
   text-align: center;
 }
