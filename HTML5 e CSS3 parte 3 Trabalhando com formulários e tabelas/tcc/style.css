@@ -1,0 +1,57 @@
+header{
+  height: 200px;
+  width: 940px;
+  margin: auto;
+}
+
+.navegacao{
+  display: inline;
+  position: absolute;
+  padding: 15px
+
+}
+
+.navegacao1{
+  display: inline-block;
+  position: relative;
+  top: 90px;
+  left: 450px;
+  padding-left: 15px;
+}
+
+#banner{
+  width: 100%;
+}
+
+.sobre {
+  background-color: rgb(250, 210, 222);
+  padding: 30px;
+}
+
+#descricao {
+  text-align: center;
+  color: brown;
+  font-style: italic;
+  font-size: 28px;
+  margin-bottom: 15px;
+
+}
+.marca {
+  color:rgb(220, 83, 20);
+ }
+
+.produtos{
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  padding: 10px;
+}
+
+p, li {
+  font-size: 24px;
+  text-align: center;
+}
+
+em {
+  color:rgb(220, 83, 20)
+}

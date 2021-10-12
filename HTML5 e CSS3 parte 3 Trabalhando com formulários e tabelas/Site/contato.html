@@ -5,7 +5,7 @@
             <title>Contatos - Barbearia Alura</title>
             <link rel="stylesheet" href="reset.css">
             <link rel="stylesheet" href="style.css">
-            <meta http-equiv="refresh" content="30">
+            <meta http-equiv="refresh" content="50">
           
       </head>
       <body>
@@ -25,12 +25,27 @@
             <main>
               <form>
                 <label for="nomesobrenome">Nome e sobrenome</label>
-                 <input type="text" id="nomesobrenome">
+                 <input type="text" id="nomesobrenome" class="inputpadrao">
                  <label for="email">E-mail</label>
-                 <input type="text" id="email">
+                 <input type="text" id="email" class="inputpadrao">
                  <label for="telefone">Telefone</label>          
-                 <input type="text" id="telefone">
-                 <textarea></textarea>
+                 <input type="text" id="telefone" class="inputpadrao">
+                 <label for="mensagem">Mensagem</label>
+                 <textarea cols="70" rows="10" id="mensagem" class="inputpadrao"></textarea>
+
+                 <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                    
+                    <label for="radio-telefone"> <input type="radio"  name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                   
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">whatsapp</label>
+                    
+                 </div>
+
+                 <label><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+
               <input type="submit" value="Enviar Formulário">
               
               </form>
