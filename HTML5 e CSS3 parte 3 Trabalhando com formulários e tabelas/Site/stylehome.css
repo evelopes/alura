@@ -4,23 +4,19 @@ header {
 }
 
 .caixa {
-  position: relative;
-  width: 940px;
+	position: relative;
+	width: 940px;
 	margin: 0 auto;
 }
 
 nav {
 	position: absolute;
 	top: 110px;
-	right: 0px;
-}
-
-nav ul{
-  display: inline-flex;
+	right: 0;
 }
 
 nav li {
-  display: inline;
+	display: inline;
 	margin: 0 0 0 15px;
 }
 
@@ -37,12 +33,25 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.titulo-centralizado {
-  text-align: center;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
 
+footer{
+  text-align: center;
+  background: url(bg.jpg) #cccccc ;
+  padding: 40px 0px ;
+  }
+
+.copyright {
+color: #ffffff;
+font-size: 13px;
+margin-top: 20px;
+  }
+
+main{
+		width: 940px;
+		margin: 0 auto;
+	}
+
+  
 #banner{
   width: 100%;
 }
@@ -52,7 +61,13 @@ nav a:hover {
    padding:30px;
 
 }
+.titulo-centralizado {
+  text-align: center;
+  padding:10px;
+  font-style: bold;
+  font-size: 25px;
 
+}
 
 p {
   text-align: center;
@@ -63,13 +78,8 @@ p {
 }
 em strong{
   color: red;
-  font-weight: bold;
 }
 
-em strong:hover{
-  color: #C78C19;
-
-}
 .itens{
    font-style: italic;
 } 
@@ -80,7 +90,7 @@ em strong:hover{
  }
 
 
-.valor {
+.menubeneficios{
   display: inline-block;
   vertical-align: top;
   width:20%;
@@ -90,3 +100,6 @@ em strong:hover{
 .imagembeneficios{
   width: 50%;
 }
+
+
+
