@@ -1,3 +1,8 @@
+body{
+  font-family: 'Andada Pro', serif;
+
+}
+
 header{
   height: 200px;
   width: 940px;
@@ -28,9 +33,8 @@ main{
 }
 
 .navegacao1:hover {
-  color: darkgoldenrod
+  color: teal;
 }
-
 
 #banner{
   width: 100%;
@@ -55,11 +59,16 @@ main{
 
 .produtos{
   display: inline-block;
-  width: 20%;
-  vertical-align: top;
+  width: 940px;
   padding: 20px;
 }
+.produtos li{
+  width: 30px;
+}
 
+.produtofoto{
+  width: 60%;
+}
 p, li {
   font-size: 24px;
   text-align: center;
@@ -80,7 +89,7 @@ em {
 footer{
   height: 10px;
   width: 100%;
-  background-color: brown;
+  background: linear-gradient(white, teal) ;
   text-align: center;
   color: white;
   font-style: italic;
@@ -91,8 +100,37 @@ footer{
 
 /*CSS produtos*/
 
-#bannercurto {
-  width: 100%;
-  height: 40%;
-  position:relative;
+.bannercurto {
+  width: 940px;
+  height: 240px;
+  object-fit: cover;
+  object-position: 0px 0px;
+}
+
+.listaprodutos{
+     width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+ 
+}
+
+.listaprodutos li{
+  display: inline-block;
+  width: 30%;
+}
+
+.listaprodutos h2{
+  font-weight: bold;
+  color:crimson;
+  line-height: 1.9;
+}
+
+
+.listaprodutos h2:hover{
+  font-weight: bold;
+  color:teal;
+}
+
+.tiposprodutos{
+  width:100%
 }
