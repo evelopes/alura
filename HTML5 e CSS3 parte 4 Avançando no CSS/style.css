@@ -98,9 +98,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-
-}
 
 form {
 	margin: 40px 0;
@@ -169,6 +166,7 @@ td, th {
 	clear: left;
 }
 
+
 .principal{	
 	padding: 3em 0;
 	background: #feFefe;
@@ -226,6 +224,10 @@ td, th {
 .itens{
 	 line-height: 1.5em;
 
+}
+
+.itens:before{
+	content: "🧔 ";
 }
 
 .itens:first-child{
