@@ -13,11 +13,14 @@ header {
 	margin: 0 auto;
 }
 
+
 nav {
 	position: absolute;
 	top: 110px;
 	right: 0;
 }
+
+
 
 nav li {
 	display: inline;
@@ -236,7 +239,9 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
 }
+
 
 .video {
 	width: 560px;
