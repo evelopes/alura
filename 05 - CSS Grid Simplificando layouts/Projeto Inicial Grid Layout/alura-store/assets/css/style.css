@@ -8,16 +8,13 @@
 }
 
 .cabecalho {
-    background:#00cc99;
     grid-area: cabeçalho;
 }
  
 .conteudo {
-    background:#ff8080;
     grid-area: conteúdo;
 }
 
 .rodape {
-    background:#0099ff;
     grid-area: rodapé;
 }
