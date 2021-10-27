@@ -1,0 +1,5 @@
+Peguei esse desafio em: 
+https://devporai.com.br/5-projetos-frontend-para-melhorar-suas-habilidades/
+
+O objetivo era criar essa landing page, com Flexbox ou CSS Grid. Acabei de ter aulas de CSS grid, então resolvi tentar. A landing page vai ser adaptada, para o conteúdo do meu canal de plantas no youtube. Como se estivesse os convidando para serem membros. 
+E vamos, lá! 
