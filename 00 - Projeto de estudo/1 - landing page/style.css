@@ -1,0 +1,137 @@
+body{
+  background:#f3f3f3;
+    font-family: 'Arvo', serif;
+}
+
+.conteudo{
+  display: grid;
+  grid-template-areas: "cta" "preco" "beneficios";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50%  50%;
+  padding: 5% 25% 25% 25%;
+  font-family: 'Arvo', serif;
+}
+
+
+.cta{
+  grid-area: cta;
+  background: #dfdfdf;
+  padding: 2rem;
+  border-radius:  10px 10px 0px 0px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+
+.cta p{
+  color: gray;
+}
+
+.preco{
+  grid-area: preco;
+  background: teal;
+  grid-row: auto;
+  padding: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.beneficios{
+  grid-area: beneficios;
+  background-color: rgb(52, 206, 206);
+  grid-row: auto;
+  padding: 1rem;
+  grid-column-start: 2;
+  grid-column-end: 2;}
+
+
+
+h1{
+  color: green;
+  line-height: 2rem;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+h2 {
+  color: rgb(91, 151, 0);
+  line-height: 3rem;
+  font-size: 90%;
+}
+
+h3{
+  color: #f3f3f3;
+  line-height: 2rem;
+  font-size: 80%;
+}
+
+.valor{
+  font-weight: bold;
+  font-size: 38px;
+  color: white;
+  display: inline;
+}
+
+.valor:nth-child(3){
+    font-size: 65%;
+    opacity: 70%;
+}
+
+P{
+  font-size:  70%;
+  margin-top: 10px;
+  color:white;
+}
+
+.botaoinscreva{
+  background: #fff;
+  color: green;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  height: 30px;
+  width: 70%;
+  box-shadow: 3px 3px 3px green;
+}
+
+.botaoinscreva a{
+  color: green;
+  text-decoration: none;
+}
+
+
+
+/*versão mobile*/
+@media screen and (max-width:480px){
+
+.conteudo{
+  padding: 10%;
+  grid-template-columns: auto ;
+  grid-template-rows: 42% 29% 29%;
+}
+
+.cta{
+  grid-area: cta;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 1rem;
+}
+
+.preco{
+  grid-area: preco;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.beneficios{
+  grid-area: beneficios;
+  grid-column-start: 1;
+  grid-column-end: 4;}
+
+}
+
+.botaoinscreva{
+    height: 40px;
+  width: 70%;
+}
