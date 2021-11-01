@@ -1,0 +1,63 @@
+.body {
+  width: 940px;
+  margin: auto;
+}
+
+
+.justifycontent{
+  border: solid orange;
+  width: 600px;
+  height: 500px;
+  padding: 5%;
+  display: flex;
+}
+
+.classe{
+
+  display: flex;
+}
+
+
+.itens{
+  background: blue;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 65px;  
+
+  align-items: space-between;
+}
+
+
+.alighitens{
+  border: solid orange;
+  width: 95%;
+  height: 500px;
+  padding: 5%;
+}
+
+.flexdirection{
+  border: solid orange;
+  width: 95%;
+  height: 500px;
+  padding: 5%;
+}
+
+.flexwrap{
+  border: solid orange;
+  width: 95%;
+  height: 500px;
+  padding: 5%;
+}
+
+b{
+  color:darkorange
+}
+
+.display{
+  display: flex;
+}
+
+.valores{
+  color: purple;
+}
