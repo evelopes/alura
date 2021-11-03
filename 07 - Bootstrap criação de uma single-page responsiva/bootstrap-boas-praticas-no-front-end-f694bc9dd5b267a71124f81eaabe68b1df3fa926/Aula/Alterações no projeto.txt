@@ -1,0 +1,12 @@
+Estou utilizando o Bootstrap 5.1 no lugar do 3. Por isso, durante o projeto utilizei a nova documentação.
+
+[bootstrap 3 para bootstrap 5]
+
+>> a classe img.responsive foi substituida Por img-fluid;
+
+>> a classe data-toggle="collapse" foi substituida por data-bs-toggle="collapse" ;
+
+>> class="collapse in" foi sufbtituido por class="collapse";
+
+>> data-target="#segundo-paragrafo" foi alterado para data-bs-target="#paragrafo2" 
+
