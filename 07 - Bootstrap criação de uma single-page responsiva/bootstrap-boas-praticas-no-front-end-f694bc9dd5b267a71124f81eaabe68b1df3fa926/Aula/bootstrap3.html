@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   
-  <meta http-equiv="refresh" content="10">
+  <meta http-equiv="refresh" content="30">
   <link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title> Bootstrap 3 </title>
@@ -18,36 +19,54 @@
     <img src="img/empresa.jpg" class="img-responsive">
 
 
-    <div id="paineis-sobre" class="panel-group">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
       <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h3>
-        </div>
-      
-        <div class="panel-body" id="primeiro-paragrafo" class="collapse in">
-            <p>Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
-          </div></div>
-          <div id="paineis-sobre" class="panel-group">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                  <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo">Preços acessíveis</h3>
+          <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Desde 1935
+                  </a>
+              </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                  A TopCasaFina Arquitetura está no mercado desde 1935 trazendo uma série de projetos de qualidade para seus clientes e mudando suas vidas para sempre.
+                  Nossa empresa construiu o palácio Dionísio para Don Pedro IX que ninguém nunca ouviu falar.
               </div>
-                  <div class="panel-body" id="segundo-paragrafo" class="collapse in">
-                  <p>A Preços a partir de R$ 1000,00.</p>
+          </div>
+      </div>
+  
+      <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      Preços acessíveis
+                  </a>
+              </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                  Com projetos a partir de R$ 5.000.000,00 a nossa empresa procura abranger os clientes mais ricos do mundo.
               </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                  <h3 class="panel-title"  data-toggle="collapse" data-target="#terceiro-paragrafo">Alegria em colaborar para um mundo mais bonito</h3>
-                </div>
-                <div class="panel-body" id="terceiro-paragrafo" class="collapse in">
-                  <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
-                </div>
+          </div>
+      </div>
+  
+      <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                      Alegria em colaborar para um mundo mais bonito
+                  </a>
+              </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                  Os projetos da TopCasaFina Arquitetura são sempre acompanhados dos melhores profissionais de decoração para que
+                  o produto final fique lindo.
               </div>
-            </div>
+          </div>
+      </div>
   </div>
-
 
 <script src="jquery-3.6.0.min.js">
   </script>
