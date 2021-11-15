@@ -1,0 +1,15 @@
+:root{
+    --main-color: hotpink;
+
+}
+
+.imagem-carrossel{
+  object-fit: cover;
+  height: 400px;
+  object-position: 0 80%;
+}
+.imagem-carrossel2{
+   object-fit: cover;
+   height: 400px;
+   object-position: 0 50%;
+}
