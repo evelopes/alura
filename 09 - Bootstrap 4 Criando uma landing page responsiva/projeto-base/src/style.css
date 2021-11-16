@@ -2,6 +2,10 @@
     --main-color: hotpink;
 
 }
+.fonte-titulo{
+  font-family: 'Pacifico', cursive;
+}
+
 
 .imagem-carrossel{
   object-fit: cover;
