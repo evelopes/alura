@@ -1,11 +1,11 @@
 :root{
-    --main-color: hotpink;
-
-}
-.fonte-titulo{
-  font-family: 'Pacifico', cursive;
+    --main-color: darkred;
+    --subtitulo: darkred;
 }
 
+.card-largura{
+  max-width: 18rem;
+}
 
 .imagem-carrossel{
   object-fit: cover;
@@ -16,4 +16,32 @@
    object-fit: cover;
    height: 400px;
    object-position: 0 50%;
+}
+
+.fonte-titulo{
+  font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+  color: var(--main-color);
+}
+
+.botao-cor-especial{
+  background-color: var(--main-color) ;
+  color: white;
+}
+
+.botao-cor-especial:hover{
+  background-color: var(--main-color) ;
+  color: yellow;
+}
+
+.borda-cor-especial{
+  border-color: var(--main-color);
+ 
+}
+
+.card-posicao-imagem{
+  object-fit: cover;
+  height: 250px;  
 }
