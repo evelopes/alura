@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<hr>
+
+
+
+
+
+<script>
+    function pulaLinha(){
+        document.write("<BR>");
+            document.write("<BR>");
+            }
+            
+            function mostra(frase){
+                document.write(frase);
+                pulaLinha();
+            }
+            
+            function calcularIMC(peso,altura){
+                var imc = peso / (altura * altura);
+                return imc;
+            }
+            
+            function mostraIMC(pessoa){
+                document.write("Seu imc é: "+ pessoa)
+                pulaLinha();
+            }
+            
+            var peso = 85;
+            var altura = 1.89;
+            
+            var pessoa1 = calcularIMC(peso,altura)
+            var pessoa2 = calcularIMC(85,1.49)
+            
+            mostraIMC(pessoa1.toFixed(2))
+            mostra(pessoa2.toFixed(2))
+            
+            
+            mostra(pessoa2.toFixed(2))
+            </script>
+</body>
+</html>
+<hr>
